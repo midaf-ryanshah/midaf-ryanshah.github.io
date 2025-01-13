@@ -82,7 +82,7 @@ footer:
       url: "https://midaf.tech/cookies/"
     - label: "Secret Blog"
       icon: "fas fa-user-secret"
-    url: https://blog.midaf.tech/
+      url: "https://blog.midaf.tech/"
 defaults:
   # _posts
   - scope:
