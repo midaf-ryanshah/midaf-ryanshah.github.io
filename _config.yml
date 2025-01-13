@@ -80,6 +80,9 @@ footer:
     - label: "Cookies Policy"
       icon: "fas fa-cookie-bite"
       url: "https://midaf.tech/cookies/"
+    - label: "Secret Blog"
+      icon: "fas fa-user-secret"
+    url: https://blog.midaf.tech/
 defaults:
   # _posts
   - scope:
