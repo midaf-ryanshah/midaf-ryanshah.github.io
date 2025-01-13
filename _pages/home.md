@@ -1,5 +1,5 @@
 ---
-title: "Home"
+layout: splash
 excerpt: "Page not found. Your pixels are in another canvas."
 permalink: /
 hidden: true
