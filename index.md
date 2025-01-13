@@ -9,4 +9,4 @@ header:
 excerpt: "At Mid AF Technologies, our games redefine what it means to be bold, ambitious, and unapologetically original. \n\That's Mid AF."
 ---
 
-Sorry, but the page you were trying to view does not exist.
+Sorry, but the page you were trying to view does not exist. 
