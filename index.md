@@ -1,4 +1,5 @@
 ---
+layout: splash
 author_profile: false
 excerpt: "At Mid AF Technologies, our games redefine what it means to be bold, ambitious, and unapologetically original. \n\That's Mid AF."
 permalink: /
