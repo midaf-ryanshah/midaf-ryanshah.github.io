@@ -1,7 +1,7 @@
 ---
 title: "News"
 permalink: /news/
-layout: archive
+layout: home
 author_profile: false
 classes: wide
 read_time: false
