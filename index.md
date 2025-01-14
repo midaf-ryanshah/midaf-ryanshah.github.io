@@ -9,5 +9,6 @@ header:
 excerpt: 'At Mid AF Technologies, our games redefine what it means to be bold, ambitious, and unapologetically original.<br /><br />That''s Mid AF.<br />'
 ---
 
-## Tested {: style="text-align: center;"}
+## Tested2
+{: style="text-align: center;"}
 This a test.
