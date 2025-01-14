@@ -9,6 +9,7 @@ header:
 excerpt: 'At Mid AF Technologies, our games redefine what it means to be bold, ambitious, and unapologetically original.<br /><br />That''s Mid AF.<br />'
 ---
 
-## Tested2
+## Who Are We?
 {: style="text-align: center;"}
-This a test.
+Mid AF Technologies is a United Kingdom-based video game studio established in 2024 by a team of industry veterans. We’re driven by a simple belief: that great games come from fearless ideas and relentless dedication.
+{: style="text-align: center;"}
