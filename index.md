@@ -7,7 +7,7 @@ header:
   cta_label: "<i class='fa fa-download'></i> Install Now"
   cta_url: "/docs/quick-start-guide/"
   caption:
-excerpt: 'At Mid AF Technologies, our games redefine what it means to be bold, ambitious, and unapologetically original.<br /><br />That is Mid AF.<br />'
+excerpt: 'At Mid AF Technologies, our games redefine what it means to be bold, ambitious, and unapologetically original.<br /><br />That''s Mid AF.<br />'
 feature_row:
   - image_path: mm-customizable-feature.png
     alt: "customizable"
