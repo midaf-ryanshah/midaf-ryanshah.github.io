@@ -12,7 +12,9 @@ related: false
 ---
 
 ## Supporting Developers Through Turbulent Times  
-At Mid AF Technologies, we were founded in 2024 during a period of widespread lay-offs within the games industry. We saw countless talented individuals caught in transitions between roles, often left uncertain about their next steps. Our mission is to provide a safe haven for developers in such situations—offering meaningful, temporary roles that allow them to stay active in their careers, earn a paycheck, and continue contributing to incredible projects.
+At Mid AF Technologies, we were founded in 2024 during a period of widespread lay-offs within the games industry. We saw countless talented individuals caught in transitions between roles, often left uncertain about their next steps. 
+
+Our mission is to provide a safe haven for developers in such situations—offering meaningful, temporary roles that allow them to stay active in their careers, earn a paycheck, and continue contributing to incredible projects.
 
 Our structure is designed to be flexible. Developers who join us between jobs can come and go as their career needs evolve. Whether it’s a few weeks, several months, or longer, we tailor opportunities to suit each individual. For us, it’s about being in the right place at the right time—ensuring no talent is left behind.
 
