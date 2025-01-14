@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: splash
 author_profile: false
 permalink: /
 hidden: true
@@ -14,4 +14,4 @@ share: false
 related: false
 ---
 
-Test Test Test
+Test Test Test 1
