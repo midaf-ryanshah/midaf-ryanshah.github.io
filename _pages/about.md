@@ -22,6 +22,15 @@ We don’t hire just anybody. At Mid AF, it’s not about where you’ve been or
 
 ---  
 
+## How Mid AF Works
+At Mid AF Technologies, our focus is simple: the value of our business is in the games we create. We’re not here to build a company for the sake of its valuation; we’re here to create exceptional games that stand out, endure, and connect with players.
+
+Every dollar, pound, euro or other unit of currency we earn goes straight back into the development of our projects—making them bigger, better, and more ambitious. Our goal isn’t about profit margins or shareholder returns; it’s about creating something extraordinary. For us, success is measured by the impact of our games, not the value of the company behind them.
+
+We exist to push boundaries and make games that matter, putting our passion for innovation and creativity above all else. If you share our drive to create unforgettable experiences, welcome to Mid AF.
+
+---
+
 ## Our Vision  
 At Mid AF Technologies, we believe that great games don’t just happen—they’re built by people unafraid to take risks and challenge conventions. Our vision is to craft experiences that stand apart, games that players remember long after they’ve put down the controller.  
 
