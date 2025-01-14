@@ -1,5 +1,5 @@
 ---
-permalink: /about/
+permalink: /about-us/
 title: "About Us"
 layout: single
 author_profile: false
