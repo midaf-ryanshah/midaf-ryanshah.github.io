@@ -1,0 +1,401 @@
+{
+	"asset":
+	{
+		"version": "2.0",
+		"generator": "Unreal Engine 5.6.0"
+	},
+	"scene": 0,
+	"accessors": [
+		{
+			"bufferView": 0,
+			"count": 12000,
+			"type": "SCALAR",
+			"componentType": 5123
+		},
+		{
+			"bufferView": 1,
+			"count": 3032,
+			"type": "VEC3",
+			"componentType": 5126,
+			"min": [ -0.280739039, -1.17888929e-17, -0.258862674 ],
+			"max": [ 0.280739039, 0.520805418, 0.258862674 ]
+		},
+		{
+			"bufferView": 2,
+			"count": 3032,
+			"type": "VEC3",
+			"componentType": 5126
+		},
+		{
+			"bufferView": 3,
+			"count": 3032,
+			"type": "VEC4",
+			"componentType": 5126
+		},
+		{
+			"bufferView": 4,
+			"count": 3032,
+			"type": "VEC2",
+			"componentType": 5126
+		},
+		{
+			"bufferView": 5,
+			"count": 3032,
+			"type": "VEC2",
+			"componentType": 5126
+		},
+		{
+			"bufferView": 6,
+			"count": 13683,
+			"type": "SCALAR",
+			"componentType": 5123
+		},
+		{
+			"bufferView": 7,
+			"count": 4363,
+			"type": "VEC3",
+			"componentType": 5126,
+			"min": [ -0.145533666, -1.46586645e-17, -0.297913283 ],
+			"max": [ 0.145533666, 0.102862373, 0.297913283 ]
+		},
+		{
+			"bufferView": 8,
+			"count": 4363,
+			"type": "VEC3",
+			"componentType": 5126
+		},
+		{
+			"bufferView": 9,
+			"count": 4363,
+			"type": "VEC4",
+			"componentType": 5126
+		},
+		{
+			"bufferView": 10,
+			"count": 4363,
+			"type": "VEC2",
+			"componentType": 5126
+		},
+		{
+			"bufferView": 11,
+			"count": 4363,
+			"type": "VEC2",
+			"componentType": 5126
+		},
+		{
+			"bufferView": 12,
+			"count": 6,
+			"type": "SCALAR",
+			"componentType": 5121
+		},
+		{
+			"bufferView": 13,
+			"count": 4,
+			"type": "VEC3",
+			"componentType": 5126,
+			"min": [ 0, -0.17426534, -0.254781008 ],
+			"max": [ 0, 0.174265355, 0.254781008 ]
+		},
+		{
+			"bufferView": 14,
+			"count": 4,
+			"type": "VEC3",
+			"componentType": 5126
+		},
+		{
+			"bufferView": 15,
+			"count": 4,
+			"type": "VEC4",
+			"componentType": 5126
+		},
+		{
+			"bufferView": 16,
+			"count": 4,
+			"type": "VEC2",
+			"componentType": 5126
+		},
+		{
+			"bufferView": 17,
+			"count": 4,
+			"type": "VEC2",
+			"componentType": 5126
+		}
+	],
+	"buffers": [
+		{
+			"uri": "computer.bin",
+			"byteLength": 465720
+		}
+	],
+	"bufferViews": [
+		{
+			"buffer": 0,
+			"byteLength": 24000,
+			"target": 34963
+		},
+		{
+			"buffer": 0,
+			"byteLength": 36384,
+			"byteOffset": 24000,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 36384,
+			"byteOffset": 60384,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 48512,
+			"byteOffset": 96768,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 24256,
+			"byteOffset": 145280,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 24256,
+			"byteOffset": 169536,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 27366,
+			"byteOffset": 193792,
+			"target": 34963
+		},
+		{
+			"buffer": 0,
+			"byteLength": 52356,
+			"byteOffset": 221160,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 52356,
+			"byteOffset": 273516,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 69808,
+			"byteOffset": 325872,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 34904,
+			"byteOffset": 395680,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 34904,
+			"byteOffset": 430584,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 6,
+			"byteOffset": 465488,
+			"target": 34963
+		},
+		{
+			"buffer": 0,
+			"byteLength": 48,
+			"byteOffset": 465496,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 48,
+			"byteOffset": 465544,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 64,
+			"byteOffset": 465592,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 32,
+			"byteOffset": 465656,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 32,
+			"byteOffset": 465688,
+			"target": 34962
+		}
+	],
+	"images": [
+		{
+			"uri": "M_RetroGaming_MetallicRoughness.png"
+		},
+		{
+			"uri": "M_RetroGaming_Occlusion.png"
+		},
+		{
+			"uri": "T_RetroGaming_D.png"
+		},
+		{
+			"uri": "T_RetroGaming_N.png"
+		}
+	],
+	"materials": [
+		{
+			"name": "M_RetroGaming",
+			"pbrMetallicRoughness":
+			{
+				"baseColorTexture":
+				{
+					"index": 0
+				},
+				"metallicRoughnessTexture":
+				{
+					"index": 1
+				}
+			},
+			"normalTexture":
+			{
+				"index": 2
+			},
+			"occlusionTexture":
+			{
+				"index": 3
+			}
+		},
+		{
+			"name": "BasicShapeMaterial",
+			"pbrMetallicRoughness":
+			{
+				"baseColorFactor": [ 0.899999976, 0.899999976, 0.899999976, 1 ],
+				"metallicFactor": 0,
+				"roughnessFactor": 0.640699983
+			}
+		}
+	],
+	"meshes": [
+		{
+			"name": "MSH_Monitor",
+			"primitives": [
+				{
+					"attributes":
+					{
+						"POSITION": 1,
+						"NORMAL": 2,
+						"TANGENT": 3,
+						"TEXCOORD_0": 4,
+						"TEXCOORD_1": 5
+					},
+					"indices": 0,
+					"material": 0
+				}
+			]
+		},
+		{
+			"name": "MSH_Keyboard",
+			"primitives": [
+				{
+					"attributes":
+					{
+						"POSITION": 7,
+						"NORMAL": 8,
+						"TANGENT": 9,
+						"TEXCOORD_0": 10,
+						"TEXCOORD_1": 11
+					},
+					"indices": 6,
+					"material": 0
+				}
+			]
+		},
+		{
+			"name": "SM_MERGED_StaticMeshActor_3",
+			"primitives": [
+				{
+					"attributes":
+					{
+						"POSITION": 13,
+						"NORMAL": 14,
+						"TANGENT": 15,
+						"TEXCOORD_0": 16,
+						"TEXCOORD_1": 17
+					},
+					"indices": 12,
+					"material": 1
+				}
+			]
+		}
+	],
+	"nodes": [
+		{
+			"name": "Brush0"
+		},
+		{
+			"name": "DefaultPhysicsVolume0"
+		},
+		{
+			"name": "SmartObjectSubsystemRenderingActor0"
+		},
+		{
+			"name": "AbstractNavData-Default"
+		},
+		{
+			"name": "MSH_Monitor",
+			"mesh": 0
+		},
+		{
+			"name": "MSH_Keyboard",
+			"translation": [ 0.5, -1.08215814e-09, 0 ],
+			"mesh": 1
+		},
+		{
+			"name": "SM_MERGED_StaticMeshActor_3",
+			"translation": [ 0.25, 0.299999982, 0 ],
+			"mesh": 2
+		}
+	],
+	"samplers": [
+		{
+			"minFilter": 9987,
+			"magFilter": 9729
+		}
+	],
+	"scenes": [
+		{
+			"name": "Untitled",
+			"nodes": [ 0, 1, 2, 3, 4, 5, 6 ]
+		}
+	],
+	"textures": [
+		{
+			"name": "T_RetroGaming_D",
+			"sampler": 0,
+			"source": 2
+		},
+		{
+			"name": "M_RetroGaming_MetallicRoughness",
+			"sampler": 0,
+			"source": 0
+		},
+		{
+			"name": "T_RetroGaming_N",
+			"sampler": 0,
+			"source": 3
+		},
+		{
+			"name": "M_RetroGaming_Occlusion",
+			"sampler": 0,
+			"source": 1
+		}
+	]
+}
