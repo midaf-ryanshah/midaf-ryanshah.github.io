@@ -20,34 +20,40 @@
             min-height: 100vh;
         }
 
-        .border {
+        .frame {
             position: fixed;
-            background-color: #d43737;
-            z-index: 100;
-            filter: drop-shadow(0 0 8px rgba(212, 55, 55, 0.7));
+            top: 20px; left: 20px; right: 20px; bottom: 20px;
+            border: 3px solid #d43737;
+            box-shadow: 0 0 8px rgba(212, 55, 55, 0.7);
             pointer-events: none;
+            z-index: 100;
         }
-        .border-top-left    { top: 34px;    left: 20px;  height: 3px; width: calc(50% - 100px); }
-        .border-top-right   { top: 34px;    right: 20px; height: 3px; width: calc(50% - 100px); }
-        .border-bottom-left { bottom: 45px; left: 20px;  height: 3px; width: calc(50% - 100px); }
-        .border-bottom-right{ bottom: 45px; right: 20px; height: 3px; width: calc(50% - 100px); }
-        .border-left  { top: 34px; left: 20px;  width: 3px; height: calc(100% - 79px); }
-        .border-right { top: 34px; right: 20px; width: 3px; height: calc(100% - 79px); }
 
-        .page-wrap { position: relative; z-index: 10; min-height: 100vh; }
+        .scroll-area {
+            position: fixed;
+            top: 23px; left: 23px; right: 23px; bottom: 23px;
+            overflow-y: auto;
+            overflow-x: hidden;
+            z-index: 10;
+            scrollbar-width: thin;
+            scrollbar-color: #d43737 transparent;
+        }
+        .scroll-area::-webkit-scrollbar       { width: 5px; }
+        .scroll-area::-webkit-scrollbar-track { background: transparent; }
+        .scroll-area::-webkit-scrollbar-thumb { background: #d43737; border-radius: 3px; }
 
         .container {
             max-width: 900px;
             margin: 0 auto;
-            padding: 66px 60px 100px;
+            padding: 36px 50px 50px;
         }
 
-        .logo-link { display: inline-block; margin-bottom: 48px; }
+        .logo-link { display: block; text-align: center; margin-bottom: 48px; }
         .logo-link img {
             height: 40px;
             width: auto;
             filter: drop-shadow(0 0 8px rgba(212, 55, 55, 0.6));
-            display: block;
+            display: inline-block;
         }
 
         .section-eyebrow {
@@ -148,25 +154,20 @@
         .page-footer a:hover { color: #d43737; }
 
         @media (max-width: 768px) {
-            .container { padding: 56px 36px 90px; }
+            .container { padding: 28px 28px 44px; }
             .page-title { font-size: 1.8rem; }
         }
         @media (max-width: 480px) {
-            .container { padding: 52px 24px 80px; }
+            .container { padding: 22px 18px 40px; }
             .page-title { font-size: 1.4rem; }
             .cards { grid-template-columns: 1fr; }
         }
     </style>
 </head>
 <body>
-    <div class="border border-top-left"></div>
-    <div class="border border-top-right"></div>
-    <div class="border border-bottom-left"></div>
-    <div class="border border-bottom-right"></div>
-    <div class="border border-left"></div>
-    <div class="border border-right"></div>
+    <div class="frame"></div>
 
-    <div class="page-wrap">
+    <div class="scroll-area">
         <div class="container">
             <a href="https://midaf.tech" class="logo-link" aria-label="Mid AF Technologies – Home">
                 <img src="/assets/logo.png" alt="Mid AF Technologies">
