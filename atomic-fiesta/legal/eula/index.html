@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EULA – Atomic Fiesta</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;800&display=swap" rel="stylesheet">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: 'Roboto', -apple-system, 'Hiragino Sans', 'Microsoft YaHei', sans-serif;
+            background: #0a0a0a;
+            color: #c0c0c0;
+            min-height: 100vh;
+        }
+
+        /* Fixed border frame – matches main site aesthetic */
+        .border {
+            position: fixed;
+            background-color: #d43737;
+            z-index: 100;
+            filter: drop-shadow(0 0 8px rgba(212, 55, 55, 0.7));
+            pointer-events: none;
+        }
+        .border-top-left    { top: 34px;    left: 20px;  height: 3px; width: calc(50% - 100px); }
+        .border-top-right   { top: 34px;    right: 20px; height: 3px; width: calc(50% - 100px); }
+        .border-bottom-left { bottom: 45px; left: 20px;  height: 3px; width: calc(50% - 100px); }
+        .border-bottom-right{ bottom: 45px; right: 20px; height: 3px; width: calc(50% - 100px); }
+        .border-left  { top: 34px; left: 20px;  width: 3px; height: calc(100% - 79px); }
+        .border-right { top: 34px; right: 20px; width: 3px; height: calc(100% - 79px); }
+
+        .page-wrap { position: relative; z-index: 10; min-height: 100vh; }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 66px 60px 100px;
+        }
+
+        /* Logo */
+        .logo-link { display: inline-block; margin-bottom: 36px; }
+        .logo-link img {
+            height: 40px;
+            width: auto;
+            filter: drop-shadow(0 0 8px rgba(212, 55, 55, 0.6));
+            display: block;
+        }
+
+        /* Header: title + language selector */
+        .doc-header {
+            display: flex;
+            align-items: flex-start;
+            justify-content: space-between;
+            gap: 20px;
+            margin-bottom: 20px;
+            flex-wrap: wrap;
+        }
+
+        .doc-title {
+            font-weight: 800;
+            font-size: 2rem;
+            color: #d43737;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            filter: drop-shadow(0 0 6px rgba(212, 55, 55, 0.45));
+            line-height: 1.15;
+        }
+
+        /* Language selector */
+        .lang-wrap { flex-shrink: 0; }
+        #lang-select {
+            background: #111;
+            color: #ccc;
+            border: 1px solid #d43737;
+            border-radius: 4px;
+            padding: 8px 14px;
+            font-family: inherit;
+            font-size: 0.88rem;
+            cursor: pointer;
+            box-shadow: 0 0 6px rgba(212, 55, 55, 0.2);
+            outline: none;
+            min-width: 200px;
+        }
+        #lang-select:focus {
+            border-color: #f04040;
+            box-shadow: 0 0 10px rgba(212, 55, 55, 0.45);
+        }
+        #lang-select option { background: #111; color: #ccc; }
+
+        /* Document-type navigation */
+        .doc-nav {
+            display: flex;
+            gap: 8px;
+            margin-bottom: 36px;
+            flex-wrap: wrap;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #1a1a1a;
+        }
+        .doc-nav a {
+            color: #555;
+            text-decoration: none;
+            font-weight: 700;
+            font-size: 0.75rem;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            padding: 5px 11px;
+            border: 1px solid #222;
+            border-radius: 4px;
+            transition: color 0.18s, border-color 0.18s, box-shadow 0.18s;
+        }
+        .doc-nav a:hover,
+        .doc-nav a.active {
+            color: #d43737;
+            border-color: #d43737;
+            box-shadow: 0 0 6px rgba(212, 55, 55, 0.28);
+        }
+
+        /* Legal text content */
+        #legal-content {
+            font-weight: 400;
+            font-size: 0.92rem;
+            line-height: 1.9;
+            color: #c0c0c0;
+            white-space: pre-wrap;
+            word-break: break-word;
+        }
+
+        .loading {
+            display: block;
+            font-weight: 800;
+            color: #d43737;
+            text-transform: uppercase;
+            letter-spacing: 0.2em;
+            font-size: 0.85rem;
+            animation: blink 1.2s ease-in-out infinite;
+        }
+        @keyframes blink {
+            0%, 100% { opacity: 1; }
+            50%       { opacity: 0.3; }
+        }
+        .error { color: #d43737; font-weight: 700; }
+
+        /* Footer */
+        .page-footer {
+            margin-top: 64px;
+            padding-top: 22px;
+            border-top: 1px solid #1a1a1a;
+            text-align: center;
+            font-size: 0.78rem;
+            color: #3a3a3a;
+        }
+        .page-footer p + p { margin-top: 6px; }
+        .page-footer a { color: #555; text-decoration: none; transition: color 0.18s; }
+        .page-footer a:hover { color: #d43737; }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .container { padding: 56px 36px 90px; }
+            .doc-title { font-size: 1.55rem; }
+        }
+        @media (max-width: 480px) {
+            .container { padding: 52px 24px 80px; }
+            .doc-title { font-size: 1.3rem; }
+            .doc-header { flex-direction: column; }
+            #lang-select { min-width: 0; width: 100%; }
+        }
+    </style>
+</head>
+<body>
+    <div class="border border-top-left"></div>
+    <div class="border border-top-right"></div>
+    <div class="border border-bottom-left"></div>
+    <div class="border border-bottom-right"></div>
+    <div class="border border-left"></div>
+    <div class="border border-right"></div>
+
+    <div class="page-wrap">
+        <div class="container">
+
+            <a href="https://midaf.tech" class="logo-link" aria-label="Mid AF Technologies – Home">
+                <img src="/assets/logo.png" alt="Mid AF Technologies">
+            </a>
+
+            <div class="doc-header">
+                <h1 class="doc-title">End User License Agreement</h1>
+                <div class="lang-wrap">
+                    <select id="lang-select" aria-label="Select language">
+                        <option value="en">English</option>
+                        <option value="fr">Français</option>
+                        <option value="de">Deutsch</option>
+                        <option value="it">Italiano</option>
+                        <option value="es-ES">Español (España)</option>
+                        <option value="es-419">Español (Latinoamérica)</option>
+                        <option value="pt-BR">Português (Brasil)</option>
+                        <option value="zh-Hans">中文（简体）</option>
+                        <option value="zh-Hant">中文（繁體）</option>
+                        <option value="ja">日本語</option>
+                        <option value="ko">한국어</option>
+                        <option value="ru">Русский</option>
+                        <option value="pl">Polski</option>
+                    </select>
+                </div>
+            </div>
+
+            <nav class="doc-nav" aria-label="Legal documents">
+                <a href="/atomic-fiesta/legal/tos/">Terms of Service</a>
+                <a href="/atomic-fiesta/legal/eula/" class="active">EULA</a>
+                <a href="/atomic-fiesta/legal/privacy-policy/">Privacy Policy</a>
+            </nav>
+
+            <div id="legal-content" role="main">
+                <span class="loading">Loading&hellip;</span>
+            </div>
+
+            <footer class="page-footer">
+                <p>
+                    <a href="/atomic-fiesta/legal/tos/">Terms of Service</a>
+                    &nbsp;&bull;&nbsp;
+                    <a href="/atomic-fiesta/legal/eula/">EULA</a>
+                    &nbsp;&bull;&nbsp;
+                    <a href="/atomic-fiesta/legal/privacy-policy/">Privacy Policy</a>
+                </p>
+                <p>&copy; Mid AF Technologies LTD. All rights reserved.</p>
+            </footer>
+
+        </div>
+    </div>
+
+    <script>
+        const DOC_TYPE = 'eula';
+
+        const LANGS = ['en','fr','de','it','es-ES','es-419','pt-BR','zh-Hans','zh-Hant','ja','ko','ru','pl'];
+
+        const REMAP = {
+            'zh':    'zh-Hans',
+            'zh-CN': 'zh-Hans',
+            'zh-SG': 'zh-Hans',
+            'zh-TW': 'zh-Hant',
+            'zh-HK': 'zh-Hant',
+            'zh-MO': 'zh-Hant',
+            'es':    'es-ES',
+            'pt':    'pt-BR',
+        };
+
+        function detectLang() {
+            const navLangs = Array.from(navigator.languages || []).concat(navigator.language || 'en');
+            for (const nl of navLangs) {
+                if (LANGS.includes(nl))         return nl;
+                if (REMAP[nl])                  return REMAP[nl];
+                const base = nl.split('-')[0];
+                if (LANGS.includes(base))       return base;
+                if (REMAP[base])                return REMAP[base];
+            }
+            return 'en';
+        }
+
+        async function loadDoc(lang) {
+            const el = document.getElementById('legal-content');
+            el.innerHTML = '<span class="loading">Loading&hellip;</span>';
+
+            const u = new URL(location.href);
+            u.searchParams.set('lang', lang);
+            history.replaceState(null, '', u);
+
+            document.getElementById('lang-select').value = lang;
+            document.documentElement.lang = lang;
+
+            try {
+                const res = await fetch('/atomic-fiesta/legal/' + DOC_TYPE + '/' + lang);
+                if (!res.ok) throw new Error(res.status);
+                el.textContent = await res.text();
+            } catch {
+                if (lang !== 'en') {
+                    loadDoc('en');
+                } else {
+                    el.innerHTML = '<span class="error">Failed to load document. Please try again later.</span>';
+                }
+            }
+        }
+
+        const qs     = new URLSearchParams(location.search);
+        const qsLang = qs.get('lang');
+        const init   = (qsLang && LANGS.includes(qsLang)) ? qsLang : detectLang();
+
+        document.getElementById('lang-select').value = init;
+        document.getElementById('lang-select').addEventListener('change', e => loadDoc(e.target.value));
+        loadDoc(init);
+    </script>
+</body>
+</html>

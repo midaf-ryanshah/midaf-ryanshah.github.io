@@ -1,0 +1,185 @@
+Zuletzt aktualisiert: 23. Februar 2026
+
+Diese Datenschutzerklärung erläutert, wie Mid AF Technologies LTD („wir“, „uns“, „unser“) personenbezogene Daten erhebt, verwendet, weitergibt und schützt, wenn Sie Atomic Fiesta spielen und alle von uns betriebenen zugehörigen Online-Dienste nutzen (die „Dienste“).
+
+Diese Erklärung gilt für das Spiel und die Dienste. Sie ersetzt nicht die Datenschutzrichtlinien Ihres Plattformanbieters (z. B. Steam, Epic Games, PlayStation) oder anderer von uns genutzter Dritter (z. B. Epic Online Services). Diese Dritten verarbeiten personenbezogene Daten gemäß ihren eigenen Richtlinien.
+
+Fragen: legal@midaf.tech
+
+
+1. Wer für Ihre Daten verantwortlich ist
+Verantwortlicher: Mid AF Technologies LTD (Vereinigtes Königreich)
+
+Wir sind der „Verantwortliche“ für personenbezogene Daten, die wir beim Betrieb der Dienste verarbeiten (z. B. unsere Server, Moderations-Tools, Support und Logik zur Kontoverknüpfung).
+
+Kontakt für Datenschutzanfragen und die Ausübung von Rechten: legal@midaf.tech
+
+
+2. Wichtige Definitionen
+„Personenbezogene Daten“: Informationen, die Sie identifizieren oder zur Identifizierung genutzt werden können, direkt oder indirekt (z. B. Konto-ID, Geräte-ID, IP-Adresse oder Sprach-/Chat-Logs, die mit Ihrem Konto verknüpft sind).
+
+„UK GDPR“: Die Datenschutz-Grundverordnung des Vereinigten Königreichs und zugehörige Gesetze, einschließlich Data Protection Act 2018.
+
+
+3. Welche personenbezogenen Daten wir erheben und verarbeiten
+Welche Daten wir verarbeiten, hängt von den genutzten Funktionen, Ihrer Plattform und Ihrem Gerät ab. Typische Kategorien:
+
+3.1 Konto- und Identitätsdaten
+- Plattform-Konto-IDs (z. B. Plattform-User-ID)
+- Epic Online Services (EOS)-IDs und Tokens für Authentifizierung/Verknüpfung
+- In-Game-IDs (z. B. Charakter- oder Profil-IDs)
+- Spielername und Avatar (häufig von Ihrer Plattform bereitgestellt)
+
+3.2 Spiel- und Servicedaten
+- Spielzustand und Fortschritt (z. B. Inventar, Freischaltungen, Quest-Status, Statistiken)
+- Matchmaking-/Sitzungsdaten (z. B. Gruppenzugehörigkeit, Serverzuweisung)
+- Clan-Mitgliedschaft und zugehörige Metadaten
+- Auktionshaus- und Handelsaufzeichnungen (Listings, Gebote, Trades, Zeitstempel)
+- Battle-Pass-Entitlement-/Fortschrittsdaten
+
+3.3 Kommunikations- und Community-Sicherheitsdaten
+- Text-Chat-Inhalte (falls aktiviert), Meldungen, Block-/Mute-Listen
+- Metadaten zur Nutzung des Sprach-Chats (z. B. Teilnahme, Sitzungs-IDs)
+- Moderationsaufzeichnungen und Durchsetzungsverlauf (Warnungen, Sperren, Banns)
+- Spielerberichte und von Spielern übermittelte Belege
+
+3.4 Technische, Sicherheits- und Diagnosedaten
+- IP-Adresse, ungefähre Standortdaten aus IP (Stadt/Region)
+- Geräte- und Netzwerkinformationen (z. B. Modell, OS-Version, Sprache, Zeitzone)
+- Client-/Server-Logs, Crash-Reports, Performance-Metriken
+- Anti-Missbrauch- und Sicherheits-Signale (z. B. verdächtige Aktivität, Auth-Events)
+
+3.5 Kauf- und Entitlement-Verifikationsdaten
+Wir verarbeiten keine Kartenzahlungsdaten, wenn Käufe über Ihre Plattform/Ihren Store abgewickelt werden. Wir können Entitlement-Informationen („hat Produkt X“, „hat Pass Y“) erhalten und verarbeiten, um Zugriff auf Inhalte zu gewähren.
+
+
+4. Zwecke der Verarbeitung
+4.1 Bereitstellung und Betrieb der Dienste
+- Authentifizierung und ggf. Verknüpfung Ihres Plattformkontos mit einer EOS-Identität
+- Matchmaking, Gruppen, Clans und andere Online-Funktionen
+- Speicherung/Synchronisierung Ihres Fortschritts und Inventars auf unseren Servern
+- Betrieb des Auktionshauses/Handelssysteme und Integrität der Transaktionen
+- Kundensupport und Bearbeitung von Anfragen
+
+4.2 Sicherheit, Integrität und Moderation
+- Durchsetzung unserer ToS/EULA und Plattformregeln
+- Erkennung, Verhinderung und Untersuchung von Cheating, Betrug, Scams, Exploits und Missbrauch
+- Moderation des Text-Chats (Filterung, Prüfung von Meldungen, Maßnahmen)
+- Schutz von Spielern und Diensten (Sicherheitsüberwachung und Incident Response)
+
+4.3 Verbesserung von Spiel und Diensten
+- Debugging, Fehlerbehebung, Performance- und Stabilitätsanalysen
+- Verständnis der Nutzung von Funktionen und Balance (aggregierte Telemetrie/Analytics)
+- Testen, Entwicklung und Verbesserung von Inhalten und Systemen (einschließlich öffentlicher Tests)
+
+4.4 Rechtliche Pflichten und Compliance
+- Einhaltung gesetzlicher Pflichten, rechtmäßiger Anfragen und regulatorischer Anforderungen
+- Geltendmachung, Ausübung oder Verteidigung von Rechtsansprüchen
+
+
+5. Rechtsgrundlagen (UK GDPR)
+Je nach Kontext stützen wir uns auf eine oder mehrere Rechtsgrundlagen:
+
+5.1 Vertrag (Art. 6(1)(b))
+Verarbeitung ist erforderlich, um die Dienste bereitzustellen und unseren Vertrag mit Ihnen zu erfüllen (z. B. Server, Fortschrittsspeicherung, Online-Funktionen, Entitlement-Prüfung).
+
+5.2 Berechtigte Interessen (Art. 6(1)(f))
+Erforderlich für unsere berechtigten Interessen, einen sicheren, fairen und funktionsfähigen Live-Service zu betreiben (z. B. Anti-Cheat, Betrugsprävention, Service-Monitoring, Stabilitätsverbesserung), unter Abwägung mit Ihren Rechten.
+
+5.3 Rechtliche Verpflichtung (Art. 6(1)(c))
+Erforderlich zur Erfüllung rechtlicher Pflichten (z. B. Antwort auf rechtmäßige Anfragen).
+
+5.4 Einwilligung (Art. 6(1)(a)) – sofern anwendbar
+In manchen Fällen stützen wir uns auf Ihre Einwilligung (z. B. optionale Funktionen oder Marketing-Cookies auf Websites). Sie können Ihre Einwilligung jederzeit widerrufen, ohne dass dies die Rechtmäßigkeit bisheriger Verarbeitung berührt.
+
+Besondere Kategorien: Wir beabsichtigen nicht, im normalen Spielbetrieb „besondere Kategorien“ personenbezogener Daten (z. B. Gesundheit, Biometrie) zu erheben. Falls dies erforderlich wäre, würden wir dies nur mit einer geeigneten Grundlage nach Art. 9 UK GDPR tun (z. B. ausdrückliche Einwilligung oder Erforderlichkeit für Rechtsansprüche).
+
+
+6. Sprach-Chat und Aufzeichnung
+Wenn Sprach-Chat aktiviert ist, wird Sprach-Audio übertragen, um die Funktion bereitzustellen. Wir beabsichtigen nicht, Sprach-Chat routinemäßig aufzuzeichnen.
+
+Wir können jedoch Sprach-Audio oder sprachbezogene Daten aufzeichnen und/oder speichern, wenn:
+(a) dies nach geltendem Recht erforderlich ist; und/oder
+(b) dies vernünftigerweise notwendig ist, um schwerwiegende Sicherheits-, Missbrauchs-, Betrugs- oder Sicherheitsvorfälle zu untersuchen und unsere Bedingungen durchzusetzen.
+
+Wenn wir Sprachaufzeichnungen implementieren, beabsichtigen wir, eine klare Benachrichtigung im Spiel und/oder in Richtlinien bereitzustellen und angemessene Zugriffskontrollen sowie Aufbewahrungsfristen anzuwenden.
+
+
+7. Überwachung und Aufbewahrung von Text-Chat
+Wenn Text-Chat aktiviert ist, können wir:
+- Chat überwachen, filtern und moderieren, um Regeln durchzusetzen und Spieler zu schützen;
+- Chat-Logs und zugehörige Metadaten zu Sicherheits- und Durchsetzungszwecken speichern;
+- Meldungen und Moderationsergebnisse nutzen, um die Erkennung von Missbrauch und Exploits zu verbessern.
+
+Wir verwenden Inhalte privater Chats nicht, um Werbeprofile zu erstellen.
+
+
+8. Cookies und ähnliche Technologien
+Diese Erklärung deckt hauptsächlich das Spiel und die Dienste ab. Unsere Websites können Cookies und ähnliche Technologien für Basisfunktionen, Sicherheit und Analytics verwenden. Wenn wir Cookies einsetzen, die über das unbedingt Erforderliche hinausgehen, bieten wir Auswahlmöglichkeiten oder holen Einwilligungen ein, wenn dies gesetzlich erforderlich ist.
+
+
+9. Mit wem wir personenbezogene Daten teilen
+Wir können personenbezogene Daten teilen mit:
+
+9.1 Plattform- und Identitätsanbietern
+- Plattformanbieter (z. B. Steam, PlayStation, Epic) für Authentifizierung, Entitlement-Prüfung und Plattformfunktionen.
+- Epic Online Services (EOS) für Identität, Authentifizierung und Komponenten von Online-Diensten.
+
+9.2 Dienstleistern (Auftragsverarbeiter)
+Wir können Drittanbieter einsetzen, um die Dienste zu betreiben (z. B. Hosting, DDoS-Schutz, Log-/Crash-Tools oder Sprach-Infrastruktur). Wir verwenden geeignete vertragliche Schutzmaßnahmen und beschränken die Verarbeitung auf das zur Leistungserbringung Erforderliche.
+
+9.3 Recht, Sicherheit und Durchsetzung
+Wir können Informationen an Behörden, Regulatoren, Gerichte oder andere Parteien offenlegen, wenn wir glauben, dass dies erforderlich ist, um das Gesetz einzuhalten, Sicherheit zu schützen, Betrug zu verhindern oder Rechte zu verteidigen.
+
+9.4 Unternehmensumstrukturierungen
+Im Fall einer Fusion, Übernahme, Umstrukturierung oder eines Asset-Verkaufs können personenbezogene Daten im Rahmen der Transaktion geteilt werden, vorbehaltlich geeigneter Schutzmaßnahmen und Ihrer Rechte.
+
+
+10. Internationale Datenübermittlungen
+Unsere Dienste und Drittanbieter können personenbezogene Daten außerhalb des Vereinigten Königreichs verarbeiten. Bei internationalen Übermittlungen nutzen wir die vom UK GDPR verlangten Garantien (z. B. Angemessenheitsbeschlüsse, Standardvertragsklauseln oder andere genehmigte Mechanismen) und ergreifen Maßnahmen zum Schutz Ihrer Daten.
+
+
+11. Aufbewahrung
+Wir bewahren personenbezogene Daten nur so lange auf, wie es für die beschriebenen Zwecke erforderlich ist, einschließlich:
+- Betrieb der Dienste und Aufrechterhaltung des Spielzustands;
+- Durchsetzung von Regeln und Beilegung von Streitigkeiten;
+- Erfüllung rechtlicher Pflichten; und
+- Schutz von Sicherheit und Integrität der Dienste.
+
+Die Aufbewahrungsdauer variiert je nach Datentyp. Beispielsweise:
+- grundlegende Konto-/Fortschrittsdaten werden so lange aufbewahrt, wie Sie Zugriff auf die Dienste haben und für einen angemessenen Zeitraum danach (Konto-Wiederherstellung, Betrugsprävention, Compliance);
+- Chat-/Moderations-Logs werden oft kürzer aufbewahrt, außer wenn eine Untersuchung oder ein Rechtsstreit dies erfordert;
+- technische Logs werden typischerweise nur begrenzte Zeit (Sicherheit/Diagnose) gespeichert.
+
+Wir können Daten anonymisieren oder aggregieren und länger für Analytics- und Verbesserungszwecke aufbewahren.
+
+
+12. Ihre Rechte (UK GDPR)
+Je nach Standort und Kontext haben Sie möglicherweise das Recht:
+- Auskunft über Ihre personenbezogenen Daten zu erhalten;
+- unrichtige Daten zu berichtigen;
+- Löschung zu verlangen (wo anwendbar);
+- Verarbeitung einzuschränken oder zu widersprechen;
+- Datenübertragbarkeit zu verlangen (wo anwendbar); und
+- Einwilligung zu widerrufen, wenn Verarbeitung auf Einwilligung beruht.
+
+Zur Ausübung Ihrer Rechte kontaktieren Sie legal@midaf.tech. Wir können Informationen verlangen, um Ihre Identität und Kontoinhaberschaft zu verifizieren. Einige Daten werden durch Ihre Plattform verwaltet; in solchen Fällen müssen Sie ggf. die Plattform kontaktieren.
+
+Beschwerden: Sie können eine Beschwerde beim UK Information Commissioner’s Office (ICO) einreichen.
+
+
+13. Sicherheit
+Wir setzen angemessene technische und organisatorische Maßnahmen zum Schutz personenbezogener Daten ein, u. a. Zugriffskontrollen, Logging und Sicherheitsüberwachung. Kein System ist perfekt sicher; Sie sind für die Sicherheit Ihrer Konten und Geräte verantwortlich.
+
+
+14. Kinder
+Atomic Fiesta wird mit Altersfreigaben und Zugriffskontrollen vertrieben, die von Plattformen/Stores und anerkannten Einstufungssystemen festgelegt werden. Wir erheben wissentlich keine personenbezogenen Daten von Kindern in einer Weise, die nach geltendem Recht und Plattformregeln nicht zulässig ist. Wenn Sie glauben, dass ein Kind uns Daten unangemessen bereitgestellt hat, kontaktieren Sie legal@midaf.tech.
+
+
+15. Änderungen dieser Erklärung
+Wir können diese Datenschutzerklärung aktualisieren. Wenn Änderungen wesentlich sind, bemühen wir uns in angemessener Weise, Sie über In-Game-Hinweise, unsere Website und/oder unsere offiziellen Social-Media-Kanäle zu informieren. Das Datum „Zuletzt aktualisiert“ oben zeigt die letzte Überarbeitung an.
+
+
+16. Zugehörige Dokumente
+Nutzungsbedingungen: https://midaf.tech/atomic-fiesta/legal/tos
+EULA: (mit der Spiel-Distribution und/oder auf unseren Legal-Seiten verfügbar)
